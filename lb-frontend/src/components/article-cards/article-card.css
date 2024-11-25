@@ -1,0 +1,103 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    color: #212121;
+    background-color: #F8F8FF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 384px;
+    border-radius: 14px;
+    min-height: 470px;
+}
+
+.card-image {
+    width:384px;
+    height: 192px;
+    background-image: url('../../assets/images/clock.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px 14px 0 0;
+}
+
+.card-context {
+    display: flex;
+    flex: 1;
+    flex-direction: column;justify-content: space-between;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    color: #8A909B;
+}
+
+.card-info img {
+    width: 24px;
+    height: 24px;
+    padding: 15px;
+}
+
+.card-info-body {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 20%;
+    gap: 10px;
+}
+
+.card-info-cat {
+    text-transform: uppercase;
+    letter-spacing: 20%;
+    display: flex;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.card-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.card-sum {
+    padding: 15px;
+    text-align: left;
+}
+
+.card-btn-container {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.card-btn {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 139px;
+    background-color: #FD5C42;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn p{
+    flex: 1;
+    font-weight: 600;
+    font-size: 14;
+    padding: 0;
+}
+
+.card-btn img{
+    width: 20px;
+    height: 20px;
+}
+
+.card-btn:hover {
+    background-color: #ca4733;
+}
