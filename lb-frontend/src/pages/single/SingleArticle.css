@@ -1,7 +1,6 @@
 .article-container-single {
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-self: center;
     padding-bottom: 50px;
 }
 
@@ -12,7 +11,7 @@
 }
 
 .hr-line {
-    width: 80%;
+    max-width: 80%;
 }
 
 .single-context {

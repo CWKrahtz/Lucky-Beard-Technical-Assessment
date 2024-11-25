@@ -89,7 +89,7 @@ function Article() {
                     </div>
                     <div className="article-card-header">
                         {articleHeader?.map(article => (
-                            <div className="article-card" key={article.id}>
+                            <div key={article.id}>
                                 <ArticleCard cardData={article} />
                             </div>
                         ))}
