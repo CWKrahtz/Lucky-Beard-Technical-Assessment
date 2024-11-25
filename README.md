@@ -29,7 +29,7 @@ The following tools are required for effectively running this project on your lo
 Run the following in the command-line to clone the project:
 
 ```bash
-$ git clone <repository-url>
+$ git clone https://github.com/CWKrahtz/Lucky-Beard-Technical-Assessment
 ```
 
 Open Software and select File | Open... from the menu. Select cloned directory and press Open button
